@@ -1,4 +1,11 @@
 body {
     background-image: url("galaxia.jpg");
     color:white;
+    font-family: 'Texturina', serif;
+    text-align: center;
+}
+header {
+    font-family: 'Dancing Script', cursive;
+    text-align-last: center;
+    font-size: 30px;
 }
