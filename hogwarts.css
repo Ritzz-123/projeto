@@ -3,6 +3,9 @@ body {
     color:white;
     font-family: 'Texturina', serif;
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
 }
 header {
     font-family: 'Dancing Script', cursive;
