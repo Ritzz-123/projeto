@@ -3,12 +3,61 @@ body {
     color:white;
     font-family: 'Texturina', serif;
     text-align: center;
+    align-items: center;
     margin-left: auto;
     margin-right: auto;
-    width: 80%;
+    width: 70%;
+    max-width: 80%;
 }
+
 header {
     font-family: 'Dancing Script', cursive;
     text-align-last: center;
     font-size: 30px;
 }
+
+
+.info , .simbolo {
+            display: inline-block;
+}
+
+
+li {
+       
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-bottom: 50px;
+        width: 30%;
+}
+
+div .retrato {
+    width: 70%;
+    display: inline-block;
+}
+
+
+.info {
+    margin-bottom: 5px;
+    align-items: center;
+    text-align: left;
+
+}
+
+.prof {
+    font-size: large ;
+    font-weight: 100;
+
+}
+
+
+
+element.image {
+    display: flexbox;
+    max-width: 70%;
+    width: 30%; 
+}
+
+
+
+
