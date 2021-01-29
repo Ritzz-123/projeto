@@ -31,6 +31,11 @@ li {
         width: 30%;
 }
 
+ul{
+     display: flex;
+     flex-wrap: wrap;
+}
+
 div .retrato {
     width: 70%;
     display: inline-block;
@@ -56,6 +61,35 @@ element.image {
     display: flexbox;
     max-width: 70%;
     width: 30%; 
+}
+
+.caixa {
+        background-color: white;
+        color: white;
+}
+
+
+
+@media ( max-width:1200px )
+{
+    li { width: 45%; }
+    img { width: 45%; }
+
+}
+
+@media ( max-width: 900px )
+{
+    li { width: 90%; }
+    img { width: 90%; }
+}
+
+@media ( max-width:500px )
+{
+    li { flex-direction: column;}
+
+    .numero { text-align: center;}
+
+    img { width: 90%; }
 }
 
 
